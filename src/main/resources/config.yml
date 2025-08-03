@@ -1,0 +1,31 @@
+enchants:
+  explosive:
+    base-chance: 20.0            # % chance to proc at level 1
+    per-level-increase: 20.0     # % added per level
+    max-level: 5                 # Maximum upgrade level
+    radius: 2                    # Blocks in each direction affected by Explosion enchant
+  speed:
+    base-boost: 1.0              # Multiplier at level 1
+    per-level-increase: 0.5      # Multiplier per level
+    max-level: 5
+  dustbooster:
+    base-chance: 10.0            # % chance to double dust at level 1
+    per-level-increase: 10.0     # % added per level
+    max-level: 5
+  itemfinder:
+    base-chance: 5.0             # % chance for rare item at level 1
+    per-level-increase: 5.0      # % added per level
+    max-level: 5
+
+upgrade:
+  dust-base-price: 5             # Cost for level 1 upgrade
+  dust-price-increase: 5         # Additional cost per level
+
+mining-fatigue:
+  level: 2                       # Fatigue level applied
+  duration: 300                  # Duration in ticks
+
+particle:
+  duration-ticks: 60             # How long the Wax Off effect lasts (ticks, default 3 seconds)
+  amount: 10                     # How many particles per tick (smaller value for less clutter)
+  spread: 0.7                    # Spread radius from block center (smaller, focused on block)
